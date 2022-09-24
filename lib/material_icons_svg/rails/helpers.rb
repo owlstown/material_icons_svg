@@ -8,7 +8,7 @@ module MaterialIconsSvg
       # Example:
       #   material_icons_svg('heart')
       #   # => <svg>...</svg>
-      def material_icons_svg(name, family = 'baseline', options = {})
+      def material_icons_svg(name, family: 'baseline', options: {})
         inline_svg_tag("#{name}/#{family}.svg", options)
       end
     end

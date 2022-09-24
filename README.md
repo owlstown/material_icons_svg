@@ -24,7 +24,7 @@ $ bundle
 ## Usage
 
 ```
-material_icons_svg(name, family='baseline', options={})
+material_icons_svg(name, family: 'baseline', options: {})
 ```
 
 `name` is the name of the icon (lower case and snake case).
