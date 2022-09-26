@@ -14,7 +14,7 @@ module MaterialIconsSvg
         #
         # Do you need to set a specific path? NO.
         # @see https://github.com/rails/sprockets/issues/542#issue-288657474
-        app.config.assets.precompile += ['*.svg']
+        app.config.assets.precompile += ['**/*.svg']
       end
     end
   end
