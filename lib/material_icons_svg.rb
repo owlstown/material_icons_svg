@@ -14,6 +14,7 @@ module MaterialIconsSvg
     private
 
     def register_rails_engine
+      require 'material_icons_svg/my_asset_file_loader'
       require 'material_icons_svg/rails/engine'
       require 'material_icons_svg/rails/railtie'
     end
