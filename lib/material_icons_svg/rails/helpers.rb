@@ -10,7 +10,7 @@ module MaterialIconsSvg
       #   # => <svg>...</svg>
       def material_icons_svg(name, family: 'baseline', options: {})
         fullpath = MaterialIconsSvg::Rails::Engine.root.join('assets', 'material-icons', 'svg', name, "#{family}.svg").to_s
-        inline_svg_tag(fullpath, options)
+        inline_svg(fullpath, options)
       end
     end
   end
